@@ -45,7 +45,9 @@ trans.exp.create(par = NA)
 
 \method{print}{transformation}(x = trans,...)
 \method{summary}{transformation}(object,...)
-\method{plot}{transformation}(x = trans, par = trans$par, range.x = NA, range.y = NA, what = "TRANS.FORW", plot = TRUE, length = 101,...)
+\method{plot}{transformation}(x = trans, par = trans$par, 
+        range.x = NA, range.y = NA, what = "TRANS.FORW", plot = TRUE, 
+        length = 101,...)
 }
 
 \arguments{
@@ -84,7 +86,10 @@ Implemented methods for objects of the class \code{transformation} are: \code{pr
   \item{trans.deriv}{a function to calculate the derivation of the transformation}
 }
 
-\references{S.L. Rinderknecht et al. Eliciting Density Ratio Classes, Int. J. Approx. Reason (2011), doi10.1016/j.ijar.2011.02.002}
+\references{
+Rinderknecht, S.L., Borsuk, M.E. and Reichert, P. Eliciting Density Ratio Classes. International Journal of Approximate Reasoning 52, 792-804, 2011. doi10.1016/j.ijar.2011.02.002. \\
+Rinderknecht, S. L., Borsuk, M. E. and Reichert, P. Bridging Uncertain and Ambiguous Knowledge with Imprecise Probabilities, Environmental Modelling & Software 36, 122-130, 2012.
+}
 \author{Simon L. Rinderknecht}
 
 %%\note{
@@ -99,34 +104,34 @@ Implemented methods for objects of the class \code{transformation} are: \code{pr
 trans.arctan <- trans.arctan.create(c(0,10))
 print(trans.arctan)
 summary(trans.arctan)
-x11()
-plot(trans.arctan)
-plot(trans.arctan,what = "TRANS.BACKW")
-plot(trans.arctan,what = "TRANS.DERIV")
+#x11()
+#plot(trans.arctan)
+#plot(trans.arctan,what = "TRANS.BACKW")
+#plot(trans.arctan,what = "TRANS.DERIV")
 
 trans.tan <- trans.tan.create(c(0,10))
-x11()
-plot(trans.tan)
-plot(trans.tan,what = "TRANS.BACKW")
-plot(trans.tan,what = "TRANS.DERIV")
+#x11()
+#plot(trans.tan)
+#plot(trans.tan,what = "TRANS.BACKW")
+#plot(trans.tan,what = "TRANS.DERIV")
 
 trans.log <- trans.log.create()
-x11()
-plot(trans.log,range.x=c(-1,1))
-plot(trans.log,what = "TRANS.BACKW",range.y=c(-1,1))
-plot(trans.log,what = "TRANS.DERIV",range.x=c(-1,1))
+#x11()
+#plot(trans.log,range.x=c(-1,1))
+#plot(trans.log,what = "TRANS.BACKW",range.y=c(-1,1))
+#plot(trans.log,what = "TRANS.DERIV",range.x=c(-1,1))
 
 trans.dil <- trans.dil.create(c(0,1,4,5))
-x11()
-plot(trans.dil,range.x=c(-1,1))
-plot(trans.dil,what = "TRANS.BACKW", range.y = c(-1,1))
-plot(trans.dil,what = "TRANS.DERIV", range.x = c(-1,1))
+#x11()
+#plot(trans.dil,range.x=c(-1,1))
+#plot(trans.dil,what = "TRANS.BACKW", range.y = c(-1,1))
+#plot(trans.dil,what = "TRANS.DERIV", range.x = c(-1,1))
 
 trans.exp <- trans.exp.create(c(3, 2, 1))
-x11()
-plot(trans.exp,range.x=c(-1,1))
-plot(trans.exp,what = "TRANS.BACKW", range.y = c(-4,3))
-plot(trans.exp,what = "TRANS.DERIV", range.x = c(-1,1))
+#x11()
+#plot(trans.exp,range.x=c(-1,1))
+#plot(trans.exp,what = "TRANS.BACKW", range.y = c(-4,3))
+#plot(trans.exp,what = "TRANS.DERIV", range.x = c(-1,1))
 
 # implemented default values are:
 trans.arctan.create(par = c(Min = 0, Max = 1))

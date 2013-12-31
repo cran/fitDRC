@@ -1,14 +1,14 @@
 Package: fitDRC
 Type: Package
 Title: Fitting Density Ratio Classes
-Version: 1.0
-Date: 2011-03-07
-Author: Simon L. Rinderknecht and Peter Reichert
-Maintainer: <peter.reichert@eawag.ch>
+Version: 1.1
+Date: 2013-12-31
+Author: Simon L. Rinderknecht and Peter Reichert <peter.reichert@eawag.ch>
+Maintainer: Peter Reichert <peter.reichert@eawag.ch>
 Description: Fits Density Ratio Classes to elicited
         probability-quantile points or intervals
 License: GPL-2
-LazyLoad: yes
-Packaged: 2012-10-29 08:58:46 UTC; ripley
+Packaged: 2013-12-31 18:49:23 UTC; reichert
+NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2012-10-29 08:58:46
+Date/Publication: 2013-12-31 22:10:44

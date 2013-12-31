@@ -22,8 +22,9 @@ no details}
 \item{\code{distribution}}{Transformed distribution as an object of the class \code{\link{distribution}}.}
 }
 \references{
-S.L. Rinderknecht et al. Eliciting Density Ratio Classes, Int. J. Approx. Reason. (2011),
-doi10.1016/j.ijar.2011.02.002}
+Rinderknecht, S.L., Borsuk, M.E. and Reichert, P. Eliciting Density Ratio Classes. International Journal of Approximate Reasoning 52, 792-804, 2011. doi10.1016/j.ijar.2011.02.002. \\
+Rinderknecht, S. L., Borsuk, M. E. and Reichert, P. Bridging Uncertain and Ambiguous Knowledge with Imprecise Probabilities, Environmental Modelling & Software 36, 122-130, 2012.
+}
 \author{
 Simon L. Rinderknecht}
 
@@ -42,14 +43,14 @@ trans.tan <- trans.tan.create(c(33,99))
 dist.student <- dist.student.create(c(0,1,1000))
 dist  <- dist.trans.create(dist.student,trans.tan)
 dist
-plot(dist)
+#plot(dist)
 
 ## Example 02 ##
 trans.arctan <- trans.arctan.create(c(0,10))
 dist.uniform <- dist.uniform.create(c(0,10))
 dist         <- dist.trans.create(dist.uniform,trans.arctan)
 dist
-plot(dist)
+#plot(dist)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

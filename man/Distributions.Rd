@@ -93,8 +93,10 @@ Implement your own distribution using the template from the example section belo
   \item{cdf.inv}{a function to calculate the inverse cdf of the distribution}
 }
 
-\references{S.L. Rinderknecht et al. Eliciting Density Ratio Classes, Int. J. Approx. Reason (2011),
-doi10.1016/j.ijar.2011.02.002}
+\references{
+Rinderknecht, S.L., Borsuk, M.E. and Reichert, P. Eliciting Density Ratio Classes. International Journal of Approximate Reasoning 52, 792-804, 2011. doi10.1016/j.ijar.2011.02.002. \\
+Rinderknecht, S. L., Borsuk, M. E. and Reichert, P. Bridging Uncertain and Ambiguous Knowledge with Imprecise Probabilities, Environmental Modelling & Software 36, 122-130, 2012.
+}
 
 \author{Simon L. Rinderknecht}
 %%\note{~~further notes~~}

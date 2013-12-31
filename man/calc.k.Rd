@@ -22,8 +22,8 @@ To calculate \code{Kappa} the density with heavier tails \emph{must} be the uppe
 \item{Lambda}{Lambda >=1 the minimally possible ratio of the not normalised probability density functions that is compatible with the chosen lower and upper distribution families only.}
 }
 \references{
-S.L. Rinderknecht et al. Eliciting Density Ratio Classes, Int. J. Approx. Reason (2011),
-doi10.1016/j.ijar.2011.02.002
+Rinderknecht, S.L., Borsuk, M.E. and Reichert, P. Eliciting Density Ratio Classes. International Journal of Approximate Reasoning 52, 792-804, 2011. doi10.1016/j.ijar.2011.02.002. \\
+Rinderknecht, S. L., Borsuk, M. E. and Reichert, P. Bridging Uncertain and Ambiguous Knowledge with Imprecise Probabilities, Environmental Modelling & Software 36, 122-130, 2012.
 }
 \author{
 Simon L. Rinderknecht
@@ -48,13 +48,13 @@ dist.upper <- dist.normal.create(par=c(3,4))
 par.lower <- dist.lower$par
 par.upper <- dist.upper$par
 
-calc.k(p, q, dist.lower, dist.upper, c(0,1), c(0,1))       # perfect matching
-                                                           # of elicited data 
-                                                           # with chosen shapes
-calc.k(p, q, dist.lower, dist.upper, par.lower, par.upper) # general case
-# calc.k(p, q, dist.lower, dist.upper,  c(0,50), c(0,1))   # not compatible
-                                                           # with the def. of
-                                                           # the DRC.
+#calc.k(p, q, dist.lower, dist.upper, c(0,1), c(0,1))       # perfect matching
+                                                            # of elicited data 
+                                                            # with chosen shapes
+#calc.k(p, q, dist.lower, dist.upper, par.lower, par.upper) # general case
+#calc.k(p, q, dist.lower, dist.upper,  c(0,50), c(0,1))     # not compatible
+                                                            # with the def. of
+                                                            # the DRC.
 
 
 ## The function is currently defined as

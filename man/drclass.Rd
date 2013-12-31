@@ -61,9 +61,8 @@ drclass.create(p = c(0.05,0.25,0.5,0.75,0.95),
 }
 
 \references{
-S.L. Rinderknecht et al. Eliciting Density Ratio Classes, Int. J. Approx. Reason (2011),
-doi10.1016/j.ijar.2011.02.002 and for the metrics see
-S.L. Rinderknecht et al. Bridging uncertain and ambiguous knowledge with imprecise probabilities, submitted.
+Rinderknecht, S.L., Borsuk, M.E. and Reichert, P. Eliciting Density Ratio Classes. International Journal of Approximate Reasoning 52, 792-804, 2011. doi10.1016/j.ijar.2011.02.002. \\
+Rinderknecht, S. L., Borsuk, M. E. and Reichert, P. Bridging Uncertain and Ambiguous Knowledge with Imprecise Probabilities, Environmental Modelling & Software 36, 122-130, 2012.
 }
 
 \author{Simon L. Rinderknecht}
@@ -80,14 +79,14 @@ drc <- drclass.create (p = c(0.05,0.25,0.666,0.75,0.95),
                        dist.upper = dist.normal.create(c(0,1)))
 drc
 print(drc)   # prints the Density Ratio Class.
-summary(drc) # adds the metrics.
-plot(drc)    # plots the Density Ratio Class.
+#summary(drc) # adds the metrics.
+#plot(drc)    # plots the Density Ratio Class.
 
 Kappa(drc)
 Lambda(drc)
 
-metrics(drc) # all metrics.
-metric.ci(drc, 0.1) # outer credible interval for 0.9 content
+#metrics(drc) # all metrics.
+#metric.ci(drc, 0.1) # outer credible interval for 0.9 content
 
 #####################################################################################
 ### if you want to create your own Density Ratio Class use the following template ###

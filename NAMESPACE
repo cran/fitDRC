@@ -1,5 +1,53 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
+# Export all names:
 
-# Export all names
 exportPattern(".")
+
+# S3 method registration:
+
+S3method(CDF,distribution)
+S3method(CDFinv,distribution)
+S3method(MEAN,distribution)
+S3method(MEDIAN,distribution)
+S3method(MODE,distribution)
+S3method(PDF,distribution)
+S3method(RANGE,distribution)
+S3method(SD,distribution)
+S3method(plot,distribution)
+S3method(print,distribution)
+S3method(summary,distribution)
+
+S3method(TRANS.BACKW,transformation)
+S3method(TRANS.DERIV,transformation)
+S3method(TRANS.FORW,transformation)
+S3method(TRANS.RANGE.X,transformation)
+S3method(TRANS.RANGE.Y,transformation)
+S3method(plot,transformation)
+S3method(print,transformation)
+S3method(summary,transformation)
+
+S3method(Fl,drclass)
+S3method(FlInv,drclass)
+S3method(Fu,drclass)
+S3method(FuInv,drclass)
+S3method(Kappa,drclass)
+S3method(Lambda,drclass)
+S3method(metric.ci,drclass)
+S3method(metric.mode,drclass)
+S3method(metric.shape,drclass)
+S3method(metric.width,drclass)
+S3method(metrics,drclass)
+S3method(plot,drclass)
+S3method(print,drclass)
+S3method(summary,drclass)
+
+# Import functions:
+
+importFrom("grDevices", "dev.off", "pdf")
+importFrom("graphics", "abline", "curve", "legend", "lines", "par",
+           "plot", "points", "title")
+importFrom("stats", "dbeta", "df", "dgamma", "dist", "dlnorm",
+           "dlogis", "dnorm", "dt", "dunif", "dweibull", "na.omit",
+           "optim", "optimize", "pbeta", "pf", "pgamma", "plnorm",
+           "plogis", "pnorm", "pt", "punif", "pweibull", "qbeta", "qf",
+           "qgamma", "qlnorm", "qlogis", "qnorm", "qt", "qunif",
+           "qweibull", "uniroot")

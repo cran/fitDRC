@@ -1,6 +1,6 @@
-fff8c60a069d2d627513d2f4bb2f7cdc *DESCRIPTION
-7a19fee4c642dcdee75ed9e371a6043e *NAMESPACE
-9eeca8a6d3a56ba69696206554eeb69b *R/fitDRC.r
+c942c444de81274ca104da8b9a399a70 *DESCRIPTION
+0b93e1fd5fc52fbec41eb3d4ae21889a *NAMESPACE
+44424d31ad3bb73e8745e9ff978abf08 *R/fitDRC.r
 d382b7513d377e6977f29c62ddfdba7c *man/CDF.Rd
 36d69ce4689b356e470574c98c123d04 *man/CDFinv.Rd
 d9ea90ada6a1364a36bcaffb9dde11ff *man/Distributions.Rd
@@ -31,7 +31,7 @@ b0a4fe02a4fd7c52e4d8670ab6769f27 *man/aberr.nelder.mead.Rd
 f3c16b26685bf426754e846eee95b95c *man/calc.k.Rd
 c89081639f07f0577eba791cbda84d00 *man/dist.trans.create.Rd
 3408671af1b41510be904c8b7ce825aa *man/drclass.Rd
-20ffd8b81791973ec9997d5e13ed8426 *man/fitDRC-package.Rd
+9d11e148b9d428a6d746d6874440c093 *man/fitDRC-package.Rd
 1b5c68764bfcfaeaf8241c070687e56b *man/mergePar.Rd
 c9d7a77e141967cc2304a56b7c99742b *man/metric.ci.Rd
 98848180449ece602bc29a714d6e1988 *man/metric.mode.Rd
